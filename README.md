@@ -1,2 +1,2 @@
-# coordinista-service
-REST API Documentation for Coordinista, an outfit-coordinating app
+# Coordinista-service
+API documentation for Coordinista, an outfit-coordinating REST API application.
