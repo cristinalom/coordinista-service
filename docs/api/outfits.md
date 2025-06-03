@@ -57,6 +57,21 @@ A number that represens the outfit's unique record ID.
     }
 ```
 
+## `outfit` operations
+
+### Read operations
+
+* Get all outfits
+* Get all outfits by season
+
+### Create operations
+
+* Post a new outfit
+
+### Delete operations
+
+* Delete an outfit
+
 ## Related tutorials
 
 * [Create an outfit]
