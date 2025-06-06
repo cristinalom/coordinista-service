@@ -52,6 +52,21 @@ A number that represens the clothing item's unique record ID.
     }
 ```
 
+## `clothing` operations
+
+### Read operations
+
+* Get all clothing items
+* Get clothing items by type
+
+### Create operations
+
+* Post a new clothing item
+
+### Delete operations
+
+* Delete a clothing item
+
 ## Related tutorials
 
 * [Add a clothing item]
