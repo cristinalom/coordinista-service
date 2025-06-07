@@ -1,155 +1,158 @@
 {
-  "clothing": [
-    {
-      "name": "long-sleeved shirt",
-      "type": "top",
-      "color": "black",
-      "description": "Sweat-wicking material, perfect for physical activity",
-      "outfits": ["mountain hiking outfit", "picnic outfit"],
-      "id": 1
-    },
-    {
-      "name": "waterproof pants",
-      "type": "bottom",
-      "color": "black",
-      "description": "Sturdy, breathable despite being waterproof",
-      "outfits": ["mountain hiking outfit"],
-      "id": 2
-    },
-    {
-      "name": "hiking boots",
-      "type": "shoes",
-      "color": "blue",
-      "description": "Waterproof, comfortable",
-      "outfits": ["mountain hiking outfit"],
-      "id": 3
-    },
-    {
-      "name": "beanie",
-      "type": "accessory",
-      "color": "red",
-      "description": "Cute and warm",
-      "outfits": ["mountain hiking outfit", "apple picking outfit"],
-      "id": 4
-    },
-    {
-      "name": "evening gown",
-      "type": "dress",
-      "color": "green",
-      "description": "The only formal dress I own",
-      "outfits": ["wedding party outfit"],
-      "id": 5
-    },
-    {
-      "name": "strappy heels",
-      "type": "footwear",
-      "color": "silver",
-      "description": "Looks amazing but not too comfortable",
-      "outfits": ["wedding party outfit"],
-      "id": 6
-    },
-    {
-      "name": "pearl clutch",
-      "type": "accessory",
-      "color": "white",
-      "description": "Fashionable but can't fit much inside it",
-      "outfits": ["wedding party outfit"],
-      "id": 7
-    },
-    {
-      "name": "flannel shirt",
-      "type": "top",
-      "color": "red",
-      "description": "Chill vibes",
-      "outfits": ["apple picking outfit"],
-      "id": 8
-    },
-    {
-      "name": "denim jeans",
-      "type": "bottoms",
-      "color": "blue",
-      "description": "They're jeans; they go with everything",
-      "outfits": ["apple picking outfit", "picnic outfit"],
-      "id": 9
-    },
-    {
-      "name": "chelsea boots",
-      "type": "footwear",
-      "color": "brown",
-      "description": "Perfect fall staple",
-      "outfits": ["apple picking outfit"],
-      "id": 10
-    },
-    {
-      "name": "sneakers",
-      "type": "footwear",
-      "color": "white",
-      "description": "Trusty pair of shoes",
-      "outfits": ["picnic outfit"],
-      "id": 11
-    },
-    {
-      "name": "backpack",
-      "type": "accessory",
-      "color": "green",
-      "description": "It's a backpack",
-      "outfits": ["mountain hiking outfit", "picnic outfit"],
-      "id": 12
-    }
-
-  ],
-  "outfits": [
-    {
-      "name": "mountain hiking outfit",
-      "season": "winter",
-      "event": "outdoors",
-      "description": "Hiking? In the winter? Extremely unlikely but not impossible.",
-      "clothingItems": [
-        "long-sleeved shirt",
-        "waterproof pants",
-        "hiking boots",
-        "beanie",
-        "backpack"
-      ],
-      "id": 1
-    },
-    {
-      "name": "wedding party outfit",
-      "season": "summer",
-      "event": "formal",
-      "description": "It's giving Keira Knightley in 'Atonement'.",
-      "clothingItems": [
-        "evening gown",
-        "strappy heels",
-        "pearl clutch"
-      ],
-      "id": 2
-    },
-    {
-      "name": "apple picking outfit",
-      "season": "fall",
-      "event": "casual",
-      "description": "I'm here to pick apples and look good, and I'm all out of apples.",
-      "clothingItems": [
-        "flannel shirt",
-        "denim jeans",
-        "chelsea boots",
-        "beanie"
-      ],
-      "id": 3
-    },
-    {
-      "name": "picnic outfit",
-      "season": "spring",
-      "event": "outdoors",
-      "description": "Cottage-core, but make it practical.",
-      "clothingItems": [
-        "long-sleeved shirt",
-        "denim jeans",
-        "sneakers",
-        "backpack"
-      ],
-      "id": 4
-    }
-  ]
+    "clothing": [
+        {
+            "name": "long-sleeved shirt",
+            "type": "top",
+            "color": "black",
+            "description": "Sweat-wicking material, perfect for physical activity",
+            "outfits": "mountain hiking outfit, picnic outfit",
+            "id": 1
+        },
+        {
+            "name": "waterproof pants",
+            "type": "bottom",
+            "color": "black",
+            "description": "Sturdy, breathable despite being waterproof",
+            "outfits": "mountain hiking outfit",
+            "id": 2
+        },
+        {
+            "name": "hiking boots",
+            "type": "footwear",
+            "color": "blue",
+            "description": "Waterproof, comfortable",
+            "outfits": "mountain hiking outfit",
+            "id": 3
+        },
+        {
+            "name": "beanie",
+            "type": "accessory",
+            "color": "red",
+            "description": "Cute and warm",
+            "outfits": "mountain hiking outfit, apple picking outfit",
+            "id": 4
+        },
+        {
+            "name": "evening gown",
+            "type": "dress",
+            "color": "green",
+            "description": "The only formal dress I own",
+            "outfits": "wedding party outfit",
+            "id": 5
+        },
+        {
+            "name": "strappy heels",
+            "type": "footwear",
+            "color": "silver",
+            "description": "Looks amazing but not too comfortable",
+            "outfits": "wedding party outfit, cocktail party outfit",
+            "id": 6
+        },
+        {
+            "name": "pearl clutch",
+            "type": "accessory",
+            "color": "white",
+            "description": "Fashionable but can't fit much inside it",
+            "outfits": "wedding party outfit",
+            "id": 7
+        },
+        {
+            "name": "flannel shirt",
+            "type": "top",
+            "color": "red",
+            "description": "Chill vibes",
+            "outfits": "apple picking outfit",
+            "id": 8
+        },
+        {
+            "name": "denim jeans",
+            "type": "bottoms",
+            "color": "blue",
+            "description": "They're jeans; they go with everything",
+            "outfits": "apple picking outfit, picnic outfit",
+            "id": 9
+        },
+        {
+            "name": "chelsea boots",
+            "type": "footwear",
+            "color": "brown",
+            "description": "Perfect fall staple",
+            "outfits": "apple picking outfit",
+            "id": 10
+        },
+        {
+            "name": "sneakers",
+            "type": "footwear",
+            "color": "white",
+            "description": "Trusty pair of shoes",
+            "outfits": "picnic outfit",
+            "id": 11
+        },
+        {
+            "name": "backpack",
+            "type": "accessory",
+            "color": "green",
+            "description": "It's a backpack",
+            "outfits": "mountain hiking outfit, picnic outfit",
+            "id": 12
+        },
+        {
+            "name": "little black dress",
+            "type": "dress",
+            "color": "black",
+            "description": "The name is self-explanatory",
+            "outfits": "cocktail party outfit",
+            "id": 13
+        },
+        {
+            "name": "pendant necklace",
+            "type": "accessory",
+            "color": "silver",
+            "description": "Gorgeous necklace from grandma -- don't lose!",
+            "outfits": "cocktail party outfit",
+            "id": 14
+        }
+    ],
+    "outfits": [
+        {
+            "name": "mountain hiking outfit",
+            "season": "winter",
+            "event": "outdoors",
+            "description": "Hiking? In the winter? Extremely unlikely but not impossible.",
+            "clothingItems": "long-sleeved shirt, waterproof pants, hiking boots, beanie, backpack",
+            "id": 1
+        },
+        {
+            "name": "wedding party outfit",
+            "season": "summer",
+            "event": "formal",
+            "description": "It's giving Keira Knightley in 'Atonement'.",
+            "clothingItems": "evening gown, strappy heels, pearl clutch",
+            "id": 2
+        },
+        {
+            "name": "apple picking outfit",
+            "season": "fall",
+            "event": "casual",
+            "description": "I'm here to pick apples and look good, and I'm all out of apples.",
+            "clothingItems": "flannel shirt, denim jeans, chelsea boots, beanie",
+            "id": 3
+        },
+        {
+            "name": "picnic outfit",
+            "season": "spring",
+            "event": "outdoors",
+            "description": "Cottage-core, but make it practical.",
+            "clothingItems": "long-sleeved shirt, denim jeans, sneakers, backpack",
+            "id": 4
+        },
+        {
+            "name": "cocktail party outfit",
+            "season": "spring",
+            "event": "formal",
+            "description": "Something you can wear at a fancy work event and at the club.",
+            "clothingItems": "little black dress, strappy heels, pendant necklace",
+            "id": 5
+        }
+    ]
 }
