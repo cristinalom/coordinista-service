@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Before you begin
 
 You must install the following software in your system and make a test call to the Coordinista service before you can complete the related tutorials for the Coordinista service.
@@ -28,26 +32,24 @@ To run the Coordinista service, you must have the following items installed and 
 
 1. Create a test branch of your fork of the Coordinista repository.
 2. Open the fork of the service in GitHub Desktop, then open your terminal
-3. Enter the following command in your terminal
+3. Enter the following command in your terminal:
   
- ```shell
+   ```shell
     ls
     git checkout -b tutorial-test
     cd api
-    json-server -w coordinista-db.json
-```
-
-The URL of the service displays as `http://localhost:3000`
-
+    json-server -w coordinista.db.json
+   ```
+  
 4. Make a test call to the service:
 
-```shell
-curl http://localhost:3000/clothing
-```
+   ```shell
+   curl https://localhost:3000/clothing
+   ```
 
 5. If the service is running correctly, a list of clothing items for the service displays:
 
-```json
+```js
  [
     {
       "name": "long-sleeved shirt",
@@ -65,6 +67,5 @@ curl http://localhost:3000/clothing
       "outfits": ["mountain hiking outfit"],
       "id": 2
     },
-        ...
- ]
+      ...
     ```
