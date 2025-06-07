@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Before you begin
 
 You must install the following software in your system and make a test call to the Coordinista service before you can complete the related tutorials for the Coordinista service.
