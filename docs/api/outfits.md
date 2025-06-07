@@ -61,16 +61,16 @@ A number that represens the outfit's unique record ID.
 
 ### Read operations
 
-* Get all outfits
-* Get all outfits by season
+* [Get all outfits](outfits-get-all-outfits.md)
+* [Get all outfits by season](outfits-get-all-outfits-by-season.md)
 
 ### Create operations
 
-* Post a new outfit
+* [Post a new outfit](outfits-post-a-new-outfit.md)
 
 ### Delete operations
 
-* Delete an outfit
+* [Delete an outfit](outfits-delete-an-outfit.md)
 
 ## Related tutorials
 

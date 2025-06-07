@@ -33,7 +33,7 @@ A string that provides a long description of the clothing item.
 
 ### `outfits`
 
-A string with numerous arrays that display the list of outfits that the clothing item fits into. Each clothing item can belong to many outfits.
+A string with arrays that display the list of outfits that the clothing item fits into. Each clothing item can belong to many outfits.
 
 ### `id`
 
@@ -56,16 +56,16 @@ A number that represens the clothing item's unique record ID.
 
 ### Read operations
 
-* Get all clothing items
-* Get clothing items by type
+* [Get all clothing items](clothing-get-all-clothing-items.md)
+* [Get clothing items by type](clothing-get-clothing-items-by-type.md)
 
 ### Create operations
 
-* Post a new clothing item
+* [Post a new clothing item](clothing-post-a-new-clothing-item.md)
 
 ### Delete operations
 
-* Delete a clothing item
+* [Delete a clothing item](clothing-delete-a-clothing-item.md)
 
 ## Related tutorials
 
