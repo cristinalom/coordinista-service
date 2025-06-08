@@ -5,7 +5,7 @@ layout: page
 # Tutorial: Get an outfit by season
 
 This tutorial shows you the process to get an outfit from the Coordinista service based on the season.
-> This tutorial takes about 10 minutes to complete
+> This tutorial takes about 10 minutes to complete.
 
 ## Prerequisites
 
@@ -26,13 +26,9 @@ Use the `GET` method to get an outfit based on specific parameters, such as seas
 2. Open the Postman app on your desktop.
 3. Create a new request in the Postman app with the following values and parameters:
     * **METHOD**: `GET`
-    * **URL**: `{{base_url}}/outfits`
+    * **URL**: `{{base_url}}/outfits?season=winter`
     * **Headers**:
         * `Content-Type: application/json`
-    * **Query Params**:
-    | Key      | Value         | Description |
-    | -------------- |------------| -----------|
-    | **season**  | winter    |   Returns all outfits for the winter season|
 
 4. Click **Send** to make the request
 5. Ensure that the response body displays the same season that you identified in your request:
@@ -49,3 +45,7 @@ Use the `GET` method to get an outfit based on specific parameters, such as seas
     }
 ]
 ```
+
+## Related tutorials
+
+* Add a clothing item to an outfit

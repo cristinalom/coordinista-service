@@ -30,8 +30,8 @@ After you set up your Coordinista service in your system sucessfully, you can ac
 
 Coordinista uses the `clothing` resource to create a completed outfit. Coordinista bases the `outfit` resource on a variety of factors including `season` and `event` type.
 
-* [Clothing resource](clothing.md)
-* [Outfit resource](outfit.md)
+* [Clothing resource](api/clothing.md)
+* [Outfit resource](api/outfits.md)
 
 ## About the service
 
