@@ -71,8 +71,3 @@ A number that represens the outfit's unique record ID.
 ### Delete operations
 
 * [Delete an outfit](outfits-delete-an-outfit.md)
-
-## Related tutorials
-
-* [Create an outfit]
-* [Get all outfits]
