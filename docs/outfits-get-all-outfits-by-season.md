@@ -48,4 +48,4 @@ Use the `GET` method to get an outfit based on specific parameters, such as seas
 
 ## Related tutorials
 
-* Add a clothing item to an outfit
+* [Add a clothing item to an outfit](clothing-add-a-new-clothing-item.md)
