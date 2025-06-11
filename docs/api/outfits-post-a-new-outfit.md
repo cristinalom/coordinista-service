@@ -58,11 +58,19 @@ Returns the information from the request body plus a unique ID for the task.
 
 
  {
+        "id": "69fe",
         "name": "lumberjack",
         "season": "fall",
         "event": "outdoors",
         "description": "In case apple picking is not enough.",
-        "clothingItems": "flannel shirt, waterproof pants, sneakers, beanie",
-        "id": 6
+        "clothingItems": "flannel shirt, waterproof pants, sneakers, beanie"
     }
 ```
+
+## Return status
+
+| Status value | Return status | Description |
+| ------------- | ----------- | ----------- |
+| 200 | Success | Requested data updated successfully |
+| 404 | Error | Specified task record not found |
+|  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
