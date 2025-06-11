@@ -62,12 +62,20 @@ A number that represens the outfit's unique record ID.
 ### Read operations
 
 * [Get all outfits](outfits-get-all-outfits.md)
-* [Get all outfits by season](outfits-get-all-outfits-by-season.md)
 
 ### Create operations
 
 * [Post a new outfit](outfits-post-a-new-outfit.md)
 
+### Update operations
+
+* [Patch an outfit](outfits-patch-an-outfit-by-id.md)
+
 ### Delete operations
 
 * [Delete an outfit](outfits-delete-an-outfit.md)
+
+## Related tutorials
+
+* [Get an outfit based on clothing items](../tutorials/outfits-get-outfit-based-on-clothing-item.md)
+* [Get an outfit based on season](../tutorials/outfits-get-all-outfits-by-season.md)

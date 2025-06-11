@@ -21,7 +21,7 @@ A string that uniquely identifies the clothing item.
 
 ### `type`
 
-A string that describes the clothing item type. The relationship between the `type` property and `outfit` resource is 1:1. The service allows one item type per `outfit`.
+A string that describes the clothing item type. The parameters allowed for this property are: `top`, `bottom`, `footwear`, `accessory`, and `dress`.
 
 ### `color`
 
@@ -57,11 +57,14 @@ A number that represens the clothing item's unique record ID.
 ### Read operations
 
 * [Get all clothing items](clothing-get-all-clothing-items.md)
-* [Get clothing items by type](clothing-get-clothing-items-by-type.md)
 
 ### Create operations
 
 * [Post a new clothing item](clothing-post-a-new-clothing-item.md)
+
+### Update operations
+
+* [Patch a clothing item by id](clothing-patch-clothing-item-outfits.md)
 
 ### Delete operations
 
@@ -69,5 +72,4 @@ A number that represens the clothing item's unique record ID.
 
 ## Related tutorials
 
-* [Add a clothing item]
-* [Add a clothing item to an outfit]
+* [Add a clothing item](../tutorials/clothing-add-a-new-clothing-item.md)
