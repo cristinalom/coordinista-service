@@ -28,16 +28,25 @@ None
 ## Return body
 
 ``` json
- {
+[ 
+  {
       "name": "sneakers",
       "type": "footwear",
       "color": "white",
       "description": "Trusty pair of shoes",
       "outfits": ["picnic outfit"],
       "id": 11
-    }
-    ...
+    },
+]
 ```
+
+## Return status
+
+| Status value | Return status | Description |
+| ------------- | ----------- | ----------- |
+| 200 | Success | Requested data updated successfully |
+| 404 | Error | Specified task record not found |
+|  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
 ## Related tutorials
 
@@ -45,4 +54,5 @@ None
 
 ## Related resources
 
-* [Get clothing items by type](clothing-get-clothing-items-by-type.md)
+* [Post a new clothing item](clothing-post-a-new-clothing-item.md)
+* [Get all outfits](outfits-get-all-outfits.md)

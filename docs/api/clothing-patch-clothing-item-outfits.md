@@ -2,30 +2,43 @@
 layout: page
 ---
 
-# Get clothing items by type
+# Patch clothing items by ID
 
-Returns an array of `clothing` items based on item `type`.
+Patches a [clothing](clothing.md) item's properties. The clothing item is specified by the `id` parameter, if it exists.
 
 ## URL
 
 ```shell
 
-{server_url}/clothing?type={clothing item type}
+{server_url}/clothing/{id}
 ```
 
-## Parameters
+## Properties
 
-| Parameter name | Type | Description |
-| -------------- | ------ | ------------ |
-| `type` | string | Describes the clothing item type|
+|Property Name |Type |Description |
+|---------------|-----|------------|
+| `name`      |string |A descriptive name for the clothing item|
+|`type`    |string |The clothing item type|
+|`color`     |string |The clothing item's color|
+|`description` |string |A long description of the clothing item|
+|`outfits`|string | An array that contains the `outfit` resources that a clothing item belongs to|
+|`id` |number |A number that represents the clothing items unique record ID|
 
 ## Request headers
 
-None
+`Content-Type: application/json`
+`Accept: application/json`
 
 ## Request body
 
-None
+```json
+[
+    {
+
+        "color": "orange"
+    }
+]
+```
 
 ## Return body
 
@@ -34,22 +47,21 @@ None
     {
         "name": "hiking boots",
         "type": "footwear",
-        "color": "blue",
+        "color": "orange",
         "description": "Waterproof, comfortable",
         "outfits": "mountain hiking outfit",
         "id": "3"
-    },
-    {
-        "name": "strappy heels",
-        "type": "footwear",
-        "color": "silver",
-        "description": "Looks amazing but not too comfortable",
-        "outfits": "wedding party outfit, cocktail party outfit",
-        "id": "6"
-    },
-    ...
+    }
 ]
 ```
+
+## Return status
+
+| Status value | Return status | Description |
+| ------------- | ----------- | ----------- |
+| 200 | Success | Requested data updated successfully |
+| 404 | Error | Specified task record not found |
+|  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
 ## Related tutorials
 

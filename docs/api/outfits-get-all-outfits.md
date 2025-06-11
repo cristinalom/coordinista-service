@@ -29,17 +29,25 @@ None
 
 ```json
 
-
-    {
+[
+   {
         "name": "wedding party outfit",
         "season": "summer",
         "event": "formal",
         "description": "It's giving Keira Knightley in 'Atonement'.",
         "clothingItems": "evening gown, strappy heels, pearl clutch",
         "id": "2"
-    }
-
+    },
+]
 ```
+
+## Return status
+
+| Status value | Return status | Description |
+| ------------- | ----------- | ----------- |
+| 200 | Success | Requested data updated successfully |
+| 404 | Error | Specified task record not found |
+|  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
 ## Related resources
 

@@ -33,6 +33,14 @@ None
 {}
 ```
 
+## Return status
+
+| Status value | Return status | Description |
+| ------------- | ----------- | ----------- |
+| 200 | Success | Requested data updated successfully |
+| 404 | Error | Specified task record not found |
+|  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+
 ## Related references
 
 * [Delete a clothing item](clothing-delete-a-clothing-item.md)
