@@ -9,8 +9,8 @@ This tutorial shows you the process to get an outfit from the Coordinista servic
 
 ## Prerequisites
 
-* You completed the [Before you begin](before-you-begin.md) tutorial
-* You have outfits stored in the service
+* You completed the [Before you begin](before-you-begin.md) tutorial.
+* You have outfits stored in the service.
 
 ## Get an outfit by season
 
@@ -30,7 +30,7 @@ Use the `GET` method to get an outfit based on specific parameters, such as seas
     * **Headers**:
         * `Content-Type: application/json`
 
-4. Click **Send** to make the request
+4. Click **Send** to make the request.
 5. Ensure that the response body displays the same season that you identified in your request:
 
 ```json

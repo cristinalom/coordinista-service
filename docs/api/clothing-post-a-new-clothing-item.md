@@ -4,7 +4,7 @@ layout: page
 
 # Post a new clothing item
 
-Use the `POST` method to add a new clothing item to the service.
+Adds a new clothing item to the service.
 
 ## URL
 
@@ -68,4 +68,4 @@ Use the `POST` method to add a new clothing item to the service.
 
 ## Related tutorials
 
-*[Add a new clothing item](../clothing-add-a-new-clothing-item.md)
+* [Add a new clothing item](docs/tutorials/clothing-add-a-new-clothing-item.md)

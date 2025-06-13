@@ -4,7 +4,8 @@ layout: page
 
 # Patch clothing items by ID
 
-Patches a [clothing](clothing.md) item's properties. The `id` parameter specifies which clothing item in the service to patch. In this example, the `color` property is patched for the clothing item that corresponds to the `id` 3.
+Patches a [clothing](clothing.md) item's properties. The `id` parameter specifies which clothing item you want to patch.
+In this example, the `color` property is updated with the `PATCH` method.
 
 ## URL
 
@@ -65,7 +66,7 @@ Patches a [clothing](clothing.md) item's properties. The `id` parameter specifie
 
 ## Related tutorials
 
-* [Add a new clothing item](../clothing-add-a-new-clothing-item.md)
+* [Add a new clothing item](docs/tutorials/clothing-add-a-new-clothing-item.md)
 
 ## Related references
 

@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# `clothing` resource
+# Clothing resource
 
 Contains information about clothing items stored in the Coordinista app. The user must upload clothing items to the service to create `outfits`. The `outfits` property of the `clothing` resource is what tells the service which clothing items make up an outfit.
 
@@ -19,31 +19,38 @@ The `{server_url}` for the service is `http://localhost:3000`.
 
 ## Properties of the clothing resource
 
-### `name`
+### Name
 
 A string that uniquely identifies the clothing item.
 
-### `type`
+### Type
 
-A string that describes the clothing item type. The parameters allowed for this property are: `top`, `bottom`, `footwear`, `accessory`, and `dress`.
+A string that describes the clothing item type. 
+Accepted values for the `type` property:
 
-### `color`
+* `top`
+* `bottom`
+* `footwear`
+* `accessory`
+* `dress`
+
+### Color
 
 A string that describes the clothing item's color. The service uses the `color` property to coordinate `outfits`.
 
-### `description`
+### Description
 
 A string that provides a long description of the clothing item.
 
-### `outfits`
+### Outfits
 
-A string with arrays that display the list of outfits that the clothing item fits into. Each clothing item can belong to many outfits.
+An array of strings that display the list of outfits that the clothing item fits into. Each clothing item can belong to many outfits.
 
-### `id`
+### Id
 
 A number that represens the clothing item's unique record ID.
 
-## Sample `clothing` resource
+## Sample clothing resource
 
 ``` json
  {
@@ -56,7 +63,7 @@ A number that represens the clothing item's unique record ID.
     }
 ```
 
-## `clothing` operations
+## Clothing operations
 
 ### Read operations
 

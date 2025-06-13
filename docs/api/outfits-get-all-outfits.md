@@ -4,7 +4,7 @@ layout: page
 
 # Get all outfits
 
-Returns an array of [outfits](outfits.md) that contains all outfits that belong to the service.
+Returns an array of [outfits](outfits.md) that belong to the service.
 
 ## URL
 
