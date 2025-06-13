@@ -4,7 +4,9 @@ layout: page
 
 # `clothing` resource
 
-Contains information about clothing items stored in the Coordinista app. The user must upload clothing items of differen types to the service before Coordinista can generate outfits.
+Contains information about clothing items stored in the Coordinista app. The user must upload clothing items to the service to create `outfits`. The `outfits` property of the `clothing` resource is what tells the service which clothing items make up an outfit.
+
+> If you add a clothing item to the service, that item is not added to an outfit automatically. You must add the clothing item to the applicable outfits. For details, refer to [Add a new clothing item](../tutorials/clothing-add-a-new-clothing-item.md).
 
 ## Base endpoint
 
@@ -12,6 +14,8 @@ Contains information about clothing items stored in the Coordinista app. The use
 
 {server_url}/clothing
 ```
+
+The `{server_url}` for the service is `http://localhost:3000`.
 
 ## Properties of the clothing resource
 
