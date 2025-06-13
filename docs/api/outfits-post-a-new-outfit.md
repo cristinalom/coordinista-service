@@ -6,6 +6,8 @@ layout: page
 
 Use the `POST` method to add a new outfit to the service.
 
+## Prerequisites
+
 Before you add the new outfit, ensure that all the applicable clothing items that make up the outfit are already added to the service:
 
 * [Get all clothing items](clothing-get-all-clothing-items.md)
@@ -74,3 +76,7 @@ Returns the information from the request body plus a unique ID for the task.
 | 200 | Success | Requested data updated successfully |
 | 404 | Error | Specified task record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+
+## Related references
+
+* [Patch an outfit](outfits-patch-an-outfit-by-id.md)

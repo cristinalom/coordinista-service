@@ -6,7 +6,7 @@ layout: page
 
 You must install the following software in your system and make a test call to the Coordinista service before you can complete the related tutorials for the Coordinista service.
 
-> These prerequisites take about 20 minutes to complete
+> After you install all the necessary software, testing the service takes 20 minutes to complete.
 
 ## Necessary software and database
 
@@ -19,7 +19,7 @@ To run the Coordinista service, you must have the following items installed and 
 * [GitHub Desktop](https://desktop.github.com)
 * [Coordinista](https://github.com/cristinalom/coordinista-service) repository fork
 * Coordinista database file
-    Sync your fork to get a current copy of the database
+  > Sync your fork to get a current copy of the database.
 
 ### Other software
 
@@ -30,15 +30,24 @@ To run the Coordinista service, you must have the following items installed and 
 
 ## Testing the service
 
-1. Create a test branch of your fork of the Coordinista repository.
-2. Open the fork of the service in GitHub Desktop, then open your terminal
-3. Enter the following command in your terminal:
+Before you can test your service, ensure that you have created a fork of the Coordinista service and that your fork has a current copy of the database file.
+
+> Note: The service runs on the `http://localhost:3000` URL.
+
+1. Open your fork of the Coordinista service locally, in GitHub Desktop.
+2. From Github Desktop, open your terminal to access your fork in the command line.
+   1. Click **Repository** in the top menu bar and select the option to open your terminal.
+3. Enter the following command in your terminal to create a test branch of your fork:
   
    ```shell
     ls
+    # lists all of the files in your fork of the Coordinista repository
     git checkout -b tutorial-test
+    # creates the test branch of your fork
     cd api
+    # changes the directory to the api file
     json-server -w coordinista.db.json
+    # starts the json-server application
    ```
   
 4. Make a test call to the service:
@@ -67,5 +76,9 @@ To run the Coordinista service, you must have the following items installed and 
       "outfits": ["mountain hiking outfit"],
       "id": 2
     },
-      ...
-    ```
+ ]
+```
+
+You have tested the service successfully. You can now perform the tasks in the related tutorials as needed.
+
+Try your hand at our Quickstart tutorial: [Get all outfits by season](../docs/tutorials/outfits-get-all-outfits-by-season.md).

@@ -4,7 +4,7 @@ layout: page
 
 # Patch clothing items by ID
 
-Patches a [clothing](clothing.md) item's properties. The clothing item is specified by the `id` parameter, if it exists.
+Patches a [clothing](clothing.md) item's properties. The `id` parameter specifies which clothing item in the service to patch. In this example, the `color` property is patched for the clothing item that corresponds to the `id` 3.
 
 ## URL
 
@@ -26,8 +26,8 @@ Patches a [clothing](clothing.md) item's properties. The clothing item is specif
 
 ## Request headers
 
-`Content-Type: application/json`
-`Accept: application/json`
+* `Content-Type: application/json`
+* `Accept: application/json`
 
 ## Request body
 
@@ -65,4 +65,8 @@ Patches a [clothing](clothing.md) item's properties. The clothing item is specif
 
 ## Related tutorials
 
-*[Add a new clothing item](../clothing-add-a-new-clothing-item.md)
+* [Add a new clothing item](../clothing-add-a-new-clothing-item.md)
+
+## Related references
+
+* [Patch an outfit](outfits-patch-an-outfit-by-id.md)
