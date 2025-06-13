@@ -4,7 +4,7 @@ layout: page
 
 # Delete an outfit by id
 
-Deletes the user specified by the `{id}` parameter.
+Deletes the outfit specified by the `{id}` parameter.
 
 ## URL
 

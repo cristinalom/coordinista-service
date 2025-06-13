@@ -4,14 +4,14 @@ layout: page
 
 # Post a new outfit
 
-Use the `POST` method to add a new outfit to the service.
+Adds a new outfit to the service.
 
 ## Prerequisites
 
 Before you add the new outfit, ensure that all the applicable clothing items that make up the outfit are already added to the service:
 
 * [Get all clothing items](clothing-get-all-clothing-items.md)
-* [Add a new clothing item](../clothing-add-a-new-clothing-item.md)
+* [Add a new clothing item](docs/tutorials/clothing-add-a-new-clothing-item.md)
 
 ## URL
 
