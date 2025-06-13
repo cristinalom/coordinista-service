@@ -49,7 +49,7 @@ None
 | 404 | Error | Specified task record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
-## Related resources
+## Related references
 
 * [Outfits](outfits.md)
 * [Post a new outifit](outfits-post-a-new-outfit.md)

@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Tutorial: Get an outfit by season
+# Quickstart: Get an outfit by season
 
 This tutorial shows you the process to get an outfit from the Coordinista service based on the season.
 > This tutorial takes about 10 minutes to complete.

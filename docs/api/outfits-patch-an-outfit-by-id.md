@@ -4,7 +4,7 @@ layout: page
 
 # Patch clothing items by ID
 
-Patches an [outfits](outfits.md) properties. The outfit is specified by the `id` parameter, if it exists.
+Patches an [outfits](outfits.md) properties. The outfit is specified by the `id` parameter, if it exists. In this example, In this example, the `season` and `event` properties are patched for the outfit that corresponds with the `id` parameter 4.
 
 ## URL
 
@@ -26,8 +26,8 @@ Patches an [outfits](outfits.md) properties. The outfit is specified by the `id`
 
 ## Request headers
 
-`Content-Type: application/json`
-`Accept: application/json`
+* `Content-Type: application/json`
+* `Accept: application/json`
 
 ## Request body
 
@@ -66,5 +66,5 @@ Patches an [outfits](outfits.md) properties. The outfit is specified by the `id`
 
 ## Related references
 
-*[Post a new outfit](outfits-post-a-new-outfit.md)
-*[Delete an outfit](outfits-delete-an-outfit.md)
+* [Post a new outfit](outfits-post-a-new-outfit.md)
+* [Delete an outfit](outfits-delete-an-outfit.md)

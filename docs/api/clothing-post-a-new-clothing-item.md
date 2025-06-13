@@ -26,8 +26,8 @@ Use the `POST` method to add a new clothing item to the service.
 
 ## Request headers
 
-`Content-Type: application/json`
-`Accept: application/json`
+* `Content-Type: application/json`
+* `Accept: application/json`
 
 ## Request body
 

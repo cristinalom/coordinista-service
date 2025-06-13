@@ -4,7 +4,7 @@ layout: page
 
 # Get all clothing items
 
-Returns an array of [clothing](clothing.md) items that make up all of the `outfits` in the service.
+Returns an array of [clothing](clothing.md) items that are used to make up all the `outfits` in the service.
 
 ## URL
 
@@ -50,9 +50,9 @@ None
 
 ## Related tutorials
 
-* [Add a new clothing item](../clothing-add-a-new-clothing-item.md)
+* [Add a new clothing item](../tutorials/clothing-add-a-new-clothing-item.md)
 
-## Related resources
+## Related references
 
 * [Post a new clothing item](clothing-post-a-new-clothing-item.md)
 * [Get all outfits](outfits-get-all-outfits.md)
