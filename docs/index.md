@@ -10,7 +10,7 @@ Coordinista is an outfit coordinating API used to simplify the daily task of cho
 
 ## Quickstart: Get an outfit by season
 
-Learn how Coordinista can [Generate an outfit by season](docs/tutorials/outfits-get-all-outfits-by-season.md) instantaneously.
+Learn how Coordinista can [Generate an outfit by season](./tutorials/outfits-get-all-outfits-by-season.md) instantaneously.
 > The tutorial takes about 15 minutes to complete.
 
 ## Setting up the Coordinista service
@@ -22,8 +22,8 @@ Learn how Coordinista can [Generate an outfit by season](docs/tutorials/outfits-
 
 After you set up your Coordinista service in your system sucessfully, you can access one of the tutorials to further customize your service.
 
-* [Get an outfit based on clothing items](docs/tutorials/outfits-get-outfit-based-on-clothing-item.md)
-* [Add a new clothing item](docs/tutorials/clothing-add-a-new-clothing-item.md)
+* [Get an outfit based on clothing items](tutorials/outfits-get-outfit-based-on-clothing-item.md)
+* [Add a new clothing item](tutorials/clothing-add-a-new-clothing-item.md)
 
 ## References by resource
 
