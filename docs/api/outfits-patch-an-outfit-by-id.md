@@ -4,7 +4,7 @@ layout: page
 
 # Patch clothing items by ID
 
-Patches an [outfits](outfits.md) properties. The outfit is specified by the `id` parameter, if it exists. In this example, In this example, the `season` and `event` properties are patched for the outfit that corresponds with the `id` parameter 4.
+Patches an [outfits](outfits.md) properties. The outfit is specified by the `id` parameter, if it exists. In this example, the `season` and `event` properties are updated with the `PATCH` method.
 
 ## URL
 

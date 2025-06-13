@@ -4,7 +4,7 @@ layout: page
 
 # Get all clothing items
 
-Returns an array of [clothing](clothing.md) items that are used to make up all the `outfits` in the service.
+Returns an array of [clothing](clothing.md) items that the service uses to make up all the `outfits`.
 
 ## URL
 
