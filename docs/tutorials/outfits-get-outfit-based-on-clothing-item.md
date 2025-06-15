@@ -4,15 +4,15 @@ layout: page
 
 # Tutorial: Find outfits based on the clothingItems property
 
-This tutorial shows you the operations to call all `outfit` resources with the same `clothingItems` property.
+This tutorial shows you how to use the `clothingItems_like` filter to return outfits in the service that use a specific clothing item.
 > This tutorial takes about 15 minutes to complete.
 
 ## Prerequisites
 
-* Complete the [Before you begin](before-you-begin.md) topic to ensure that you have the service installed on your system.
+* Complete the [Before you begin](../before-you-begin.md) topic to ensure that you have the service installed on your system.
 * Ensure that all the outfits in the service have corresponding `clothingItems` based on the `clothing` resource.
 
-To add an outfit to the service, refer to [Post a new outfit](docs/api/post-a-new-outfit.md). To add a clothing item to an existing outfit, refer to [Add a new clothing item](docs/tutorials/clothing-add-a-new-clothing-item.md).
+To add an outfit to the service, refer to [Post a new outfit](../api/clothing-post-a-new-clothing-item.md). To add a clothing item to an existing outfit, refer to [Add a new clothing item](../tutorials/clothing-add-a-new-clothing-item.md).
 
 ## Find outfits based on the clothingItems property
 
