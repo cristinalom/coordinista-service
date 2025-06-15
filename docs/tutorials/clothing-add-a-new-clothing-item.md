@@ -9,8 +9,8 @@ This tutorial shows you the operations to add a new `clothing` resource as well 
 
 ## Prerequisites
 
-* Complete the [Before you begin](before-you-begin.md) topic to ensure that you have the service installed on your system.
-* If you want to add a new clothing item to an outfit, ensure that the outfit is already in the service.
+* Complete the [Before you begin](../before-you-begin.md) topic to ensure that you have the service installed on your system.
+* If you want to add a new clothing item to an `outfit` resource, ensure that the `outfit` resource already exists in the service.
 
 ## Add a new clothing item to the service
 
@@ -18,7 +18,7 @@ Use the `POST` method and a new `clothing` resource to your service.
 
 > The `{base_url}` for the service is `http://localhost:3000`.
 
-To add a new clothing item:
+**To add a new clothing item:**
 
 1. From GitHub desktop, open your terminal to access your fork of the Coordinista repository in the command line.
 2. If your local service is not running yet, start it with the following command:
@@ -70,7 +70,7 @@ You have successfully added a silk skirt to your `clothing` resources.
 
 ## Add a new clothing item to an existing outfit
 
-To add a new clothing item to an `outfit` resource:
+**To add a new clothing item to an `outfit` resource:**
 
 1. In the Postman app, create a new request with the following values:
     * **METHOD**: `PATCH`
