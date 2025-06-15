@@ -23,6 +23,7 @@ Learn how Coordinista can [Generate an outfit by season](./tutorials/outfits-get
 After you set up your Coordinista service in your system sucessfully, you can access one of the tutorials to further customize your service.
 
 * [Get an outfit based on clothing items](tutorials/outfits-get-outfit-based-on-clothing-item.md)
+* [Get a clothing item based on an outfit](tutorials/clothing-get-clothing-items-based-on-outfit.md)
 * [Add a new clothing item](tutorials/clothing-add-a-new-clothing-item.md)
 
 ## References by resource
