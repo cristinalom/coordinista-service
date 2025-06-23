@@ -15,8 +15,7 @@ Learn how Coordinista can [Generate an outfit by season](./tutorials/outfits-get
 
 ## Setting up the Coordinista service
 
-1. Use the [API security and authorization] tutotiral to set up your credentials and access the Coordinista service securely.
-2. Access the [Before you begin](before-you-begin.md) tutorial to set up your development system and enable Coordinsta on your device.
+Access the [Before you begin](before-you-begin.md) tutorial to set up your development system and enable Coordinsta on your device.
 
 ## Tutorials
 
@@ -30,8 +29,23 @@ After you set up your Coordinista service in your system sucessfully, you can ac
 
 Coordinista uses the `clothing` resource to create a completed outfit. Coordinista bases the `outfit` resource on a variety of factors including `season` and `event` type.
 
-* [Clothing resource](api/clothing.md)
-* [Outfit resource](api/outfits.md)
+[Clothing resource](api/clothing.md)
+
+|Operation |Reference |
+|----------|----------|
+|`GET` |[Get all clothing items](../docs/api/clothing-get-all-clothing-items.md)|
+|`DELETE` |[Delete a clothing item](../docs/api/clothing-delete-a-clothing-item.md) |
+|`POST`     |[Post a new clothing item](../docs/api/clothing-post-a-new-clothing-item.md) |
+|`PATCH` |[Patch a clothing item](../docs/api/clothing-patch-clothing-item-outfits.md)|
+
+[Outfit resource](api/outfits.md)
+
+|Operation |Reference |
+|----------|----------|
+|`GET` |[Get all outfits](../docs/api/outfits-get-all-outfits.md)|
+|`DELETE` |[Delete an outfit](../docs/api/outfits-delete-an-outfit.md) |
+|`POST`     |[Post a new outfit](../docs/api/outfits-post-a-new-outfit.md) |
+|`PATCH` |[Patch an outfit](../docs/api/outfits-patch-an-outfit-by-id.md)|
 
 ## About the service
 

@@ -9,8 +9,8 @@ This tutorial shows you the process to get an outfit from the Coordinista servic
 
 ## Prerequisites
 
-* You completed the [Before you begin](before-you-begin.md) tutorial.
-* You have outfits stored in the service.
+* You completed the [Before you begin](../before-you-begin.md) tutorial.
+* You have outfits stored in the service. For details, refer to [Post a new outfit](../api/outfits-post-a-new-outfit.md)
 
 ## Get an outfit by season
 
@@ -45,7 +45,3 @@ Use the `GET` method to get an outfit based on specific parameters, such as seas
     }
 ]
 ```
-
-## Related tutorials
-
-* [Add a clothing item to an outfit](clothing-add-a-new-clothing-item.md)
