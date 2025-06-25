@@ -66,6 +66,6 @@ Adds a new clothing item to the service.
 | 404 | Error | Specified task record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
-## Related tutorials
+## Related references
 
-* [Add a new clothing item](docs/tutorials/clothing-add-a-new-clothing-item.md)
+* [Patch a clothing item](clothing-patch-clothing-item-outfits.md)
