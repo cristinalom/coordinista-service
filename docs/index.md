@@ -6,6 +6,8 @@ layout: page
 
 Coordinista is an outfit coordinating API used to simplify the daily task of choosing an outfit.
 
+![Image of a fashion design sketch](fashion_design.jpg)
+
 ---
 
 ## Quickstart: Get an outfit by season
